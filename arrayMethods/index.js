@@ -45,14 +45,19 @@
 // }
 
 // retrieve width and height of the window
-let height, width;
+// let height, width;
 
-height = window.outerHeight;
-width = window.outerWidth;
+// height = window.outerHeight;
+// width = window.outerWidth;
 
-height = window.innerHeight;
-width = window.innerWidth;
+// height = window.innerHeight;
+// width = window.innerWidth;
 
-console.log(height);
-console.log(width);
+// console.log(height);
+// console.log(width);
 
+// location
+let urlLocation = window.location;
+
+console.log(urlLocation); //gives us the location object
+console.log(urlLocation.host); //gives us the host location in the location object 

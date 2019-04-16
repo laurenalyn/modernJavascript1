@@ -1,6 +1,6 @@
 
 try {
-    something(); //undefined function
+    getClients(); 
 } catch(error) {
     console.log(error); //will let us know if there is an error 
 } finally {

@@ -22,13 +22,25 @@
 // console.log(productName);
 
 // iterators in ES6
-let myCar = {
-    model: 'Camaro',
-    engine: 6.0,
-    year: 1969,
-    make: 'Chevy'
+// let myCar = {
+//     model: 'Camaro',
+//     engine: 6.0,
+//     year: 1969,
+//     make: 'Chevy'
+// }
+
+// for(let key in myCar) {
+//     console.log(`${key}: ${myCar[key]}`);
+// }
+
+// ----------
+
+// WINDOW OBJECT
+
+// confirm
+if(confirm['Are you sure?']) {
+    console.log('Deleted...');
+} else {
+    console.log('Nothing happens');
 }
 
-for(let key in myCar) {
-    console.log(`${key}: ${myCar[key]}`);
-}
